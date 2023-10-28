@@ -11,8 +11,9 @@
 
 - Python编程语言
 - 基本的数据分析和统计学知识
-- 数据可视化
 - 人工智能基础概念
-- 机器学习和深度学习
 
-## 目录结构
+
+## 相关链接
+
+- [DeepLabCut GitHub仓库](https://github.com/DeepLabCut/DeepLabCut)
