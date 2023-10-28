@@ -16,4 +16,4 @@
 
 ## 相关链接
 
-- [DeepLabCut GitHub仓库](https://github.com/DeepLabCut/DeepLabCut)
+- [DeepLabCut ：通过深度学习对所有动物（包括动物）进行用户定义特征的无标记姿势估计](https://github.com/DeepLabCut/DeepLabCut)
