@@ -12,6 +12,30 @@
 - 基本的数据分析和统计学知识
 - 人工智能基础概念
 
+## Note
+系统安装多个版本python时，特别是安装了anaconda/miniconda时，在不同python环境切换：  
+1.首先查看环境路径，这是用于告诉系统在哪找到python以执行你的python文件：  
+   ```
+   echo $PATH
+   ```
+2.此时会看到很多路径 找到其中这个：/Library/Frameworks/Python.framework/Versions/<version_number>/，就是系统目录下的python路径，以后用“这个路径/python”或python3来执行你的python文件，就像这样：
+   ```
+# 1.使用系统的python执行Test.py：  
+/Library/Frameworks/Python.framework/Versions/3.9/bin/python3 Test.py
+ ```
+ 
+3.安装anaconda或者miniconda后，一般会自动覆盖系统的，也就是默认输入的python就会是conda目录下的，可以这样查看其具体目录：
+ ```
+conda info --envs
+ ```
+<div align=center><img src="[https://github.com/ferrarif1/OK-HomeWork/blob/main/W6/picture/buyOptionByETH.png](https://github.com/ferrarif1/HouyeProject/blob/main/pictures/1.png)" width="680px"></div>  
+
+   
+ ```
+# 2.使用conda的python执行Test.py：
+/Users/zhangyuanyi/anaconda3/python3  Test.py
+ ```
+
 ## 项目目录结构 📓
 
 - `/data`：存放实验数据
