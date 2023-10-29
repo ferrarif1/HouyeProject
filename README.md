@@ -14,7 +14,7 @@
 - 人工智能基础概念
 
 ## 安装资源
-[Anaconda 镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/)
+- [Anaconda 镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/)
 
 
 ## 相关库链接
