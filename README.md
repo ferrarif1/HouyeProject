@@ -13,8 +13,11 @@
 - 基本的数据分析和统计学知识
 - 人工智能基础概念
 
+## 安装资源
+[Anaconda 镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/)
 
-## 相关链接
+
+## 相关库链接
 
 - [DeepLabCut ：通过深度学习对所有动物（包括动物）进行用户定义特征的无标记姿势估计](https://github.com/DeepLabCut/DeepLabCut)
 
