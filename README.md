@@ -18,4 +18,7 @@
 
 - [DeepLabCut ：通过深度学习对所有动物（包括动物）进行用户定义特征的无标记姿势估计](https://github.com/DeepLabCut/DeepLabCut)
 
-- [Chatpdf ：GPT读论文神器](https://www.chatpdf.com/)
+## GPT读论文神器
+- [Chatpdf：上传论文给你解读](https://www.chatpdf.com/)
+
+- [hammerscholar：能在线检索 给Doi号就能看论文](https://pdf.hammerscholar.net/)
