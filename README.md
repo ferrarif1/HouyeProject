@@ -13,7 +13,33 @@
 - 基本的数据分析和统计学知识
 - 人工智能基础概念
 
-## 安装资源
+## 项目目录结构
+
+- `/data`：存放实验数据
+- `/notebooks`：Jupyter Notebooks用于数据分析和实验记录
+- `/scripts`：存放用于数据处理和分析的Python脚本
+- `/results`：存放实验结果和可视化输出
+
+## 如何开始
+
+1. **克隆项目到本地环境：**
+   ```
+   git clone https://github.com/ferrarif1/HouyeProject
+   ```
+
+2. **安装所需的Python库：**
+   ```
+   pip install pandas matplotlib numpy
+   ```
+
+3. **开始实验和数据分析：**
+   - 打开Jupyter Notebook，开始实验和数据分析。
+
+
+
+# 相关资料
+
+## 安装依赖资源
 - [Anaconda 镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/)
 
 
