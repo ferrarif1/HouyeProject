@@ -32,11 +32,18 @@ Miniconda： Miniconda 只包含了一个最小的 Python 安装，没有预先�
 conda info --envs
  ```
 
-<div align=center><img src="https://github.com/ferrarif1/HouyeProject/blob/main/pictures/1.png" width="680px"></div>  
-   
+<div align=left><img src="https://github.com/ferrarif1/HouyeProject/blob/main/pictures/1.png" width="680px"></div>  
+
+用“conda路径/python”或“conda路径/python3”来执行你的python文件，就像这样：   
  ```
-# 2.：
-/Users/zhangyuanyi/anaconda3/python3  Test.py
+/Users/xxx/anaconda3/python3  Test.py
+ ```
+- 查看系统当前默认的python是哪个：
+   ```
+(base) xxx@MacBook-Pro ~ % python --version    
+Python 3.11.5
+(base) xxx@MacBook-Pro ~ % which python        
+/Users/zhangyuanyi/anaconda3/bin/python
  ```
 
 ## 项目目录结构 📓
