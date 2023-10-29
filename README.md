@@ -12,7 +12,8 @@
 - 基本的数据分析和统计学知识
 - 人工智能基础概念
 
-## [笔记1--多种Python环境之间的切换](https://github.com/ferrarif1/HouyeProject/blob/main/%E7%AC%94%E8%AE%B0/Python_Env_exchange.md)
+## 学习笔记
+- [笔记1--多种Python环境之间的切换](https://github.com/ferrarif1/HouyeProject/blob/main/%E7%AC%94%E8%AE%B0/Python_Env_exchange.md)
 
 
 ## 项目目录结构 📓
