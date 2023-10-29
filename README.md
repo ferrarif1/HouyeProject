@@ -27,7 +27,8 @@
    git clone https://github.com/ferrarif1/HouyeProject
    ```
 
-2. **安装所需的Python库：**
+2. **安装所需的Python库：**  
+   Pandas（用于数据处理）、Matplotlib（用于数据可视化）、NumPy（用于数值计算）
    ```
    pip install pandas matplotlib numpy
    ```
