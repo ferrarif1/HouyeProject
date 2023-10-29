@@ -69,4 +69,4 @@ pip install numpy
 
 总的来说，你可以选择使用 `conda` 或 `pip` 来安装 Python 库，具体取决于你的偏好以及特定的环境设置。 
 
-如果pip安装后发现还是提示找不到该库，就可能是下载的库和当前python不匹配的问题，例如pip安装给了系统的python，而使用conda的python执行Test.py，自然是找不到相应的库的，此时就需要尝试按本文提到的方法切换python来执行文件。
+### 如果pip安装后发现还是提示找不到该库，就可能是下载的库和当前python不匹配的问题，例如pip安装给了系统的python，而使用conda的python执行Test.py，自然是找不到相应的库的，此时就需要尝试按本文提到的方法切换python来执行文件。
