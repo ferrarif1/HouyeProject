@@ -26,7 +26,7 @@ conda info --envs
  ```
 /Users/xxx/anaconda3/python3  Test.py
  ```
-- 查看系统当前默认的python是哪个：
+- #### 查看系统当前默认的python是哪个：
  ```
 python --version    #查看python的版本
 返回：Python 3.11.5
@@ -34,7 +34,7 @@ python --version    #查看python的版本
 which python        #查看现在默认是用哪个python，可以看到这里是用anaconda3环境下的python
 返回：/Users/xxx/anaconda3/bin/python
  ```
-- 激活conda运行环境
+- #### 激活conda运行环境
   激活 Conda 环境是为了将特定的环境设置为当前活动环境，以便在该环境中使用特定版本的 Python 及其安装的库和工具。
 
   当你在多个项目中使用不同版本的 Python 或依赖库时，使用 Conda 环境可以帮助你保持项目之间的隔离，避免版本冲突。
