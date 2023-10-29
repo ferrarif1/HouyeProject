@@ -34,6 +34,24 @@ python --version    #查看python的版本
 which python        #查看现在默认是用哪个python，可以看到这里是用anaconda3环境下的python
 返回：/Users/xxx/anaconda3/bin/python
  ```
+- 激活conda运行环境
+  激活 Conda 环境是为了将特定的环境设置为当前活动环境，以便在该环境中使用特定版本的 Python 及其安装的库和工具。
+
+  当你在多个项目中使用不同版本的 Python 或依赖库时，使用 Conda 环境可以帮助你保持项目之间的隔离，避免版本冲突。
+
+  例如，如果你在一个项目中使用了 Python 3.7 和一些特定的库，而在另一个项目中你需要使用 Python 3.9 和其他不同的库，你可以为每个项目创建一个独立的 Conda 环境。当你需要切换到特定项目时，只需激活相应的环境即可。
+
+  在没有激活 Conda 环境的情况下，系统将使用默认的 Python 环境，这可能与你的项目要求不符。
+  
+激活：                                            
+ ```                                                                           
+    $ conda activate myenv
+ ```                                                                            
+不激活：                                     
+ ```                                                                         
+     $ conda deactivate
+ ```
+
 ### 依赖库安装了找不到的问题
 对于 Anaconda 和 Miniconda 环境，你可以使用以下方法安装 Python 库：
 
