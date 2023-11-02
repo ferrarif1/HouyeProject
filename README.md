@@ -11,7 +11,9 @@
 
 本项目涉及以下学习内容：
 
-- Python编程语言 [菜鸟教程（推荐）](https://www.runoob.com/python/python-tutorial.html)    [莫烦Python](https://mofanpy.com/tutorials/python-basic/interactive-python/) 
+- Python编程语言 [菜鸟教程（推荐）](https://www.runoob.com/python/python-tutorial.html)    [莫烦Python](https://mofanpy.com/tutorials/python-basic/interactive-python/)  
+ [Python数据分析笔记](https://github.com/lijin-THU/notes-python)
+  
 - 基本的数据分析和统计学知识
 - 人工智能基础概念
 
