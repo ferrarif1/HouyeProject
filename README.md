@@ -1,5 +1,4 @@
 ![背景图](https://github.com/ferrarif1/HouyeProject/raw/main/pictures/IMG_5072.PNG)
-# 小鼠开颅手术前后智力评估研究项目
 
 ## 项目简介
 
