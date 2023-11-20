@@ -95,7 +95,7 @@ def rename_xls_to_xlsx(directory):
                     final_processed_data.to_excel(final_processed_output_file_path, index=False)
 
 
-# 指定目录路径
+# 指定目录路径 ！！！！！！！！只把这个根目录改成你的大文件夹目录就行 ！！！！！！1
 directory_path = "/Users/zhangyuanyi/Downloads/待整理文件/"
 
 # 执行函数
