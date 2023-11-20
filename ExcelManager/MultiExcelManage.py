@@ -1,3 +1,5 @@
+import os
+
 import pandas as pd
 
 def extract_unique_functions(df, column_name):
@@ -55,33 +57,46 @@ def generate_output_file_path(file_path):
     modified_file_path = file_path[:dot_index] + '_modified' + file_path[dot_index:]
     return modified_file_path
 
-# Example usage
-file_path = '/Users/zhangyuanyi/Downloads/待整理文件/NPs-hip/SN:C/SN:C-GO/SN:C-hip-GO-1.5/1.5-GO-SN-vs-C-diff-p-val-0.05-FC-1.5.xlsx'
-final_processed_output_file_path = generate_output_file_path(file_path)
-
-print(final_processed_output_file_path)
-
-# data = pd.read_excel(file_path)
-# 在读取 Excel 文件时显式指定引擎
-# 对于 .xlsx 文件，使用 'openpyxl'
-# 对于 .xls 文件，使用 'xlrd'
-engine = 'openpyxl' if 'xlsx' in file_path else 'xlrd'
-data = pd.read_excel(file_path, engine=engine)
-
-if 'GO' in file_path :
-    # Process the data based on the 'GO_term' column (assumed to be column 'D')
-    final_processed_data = insert_blank_rows_for_groups(
-        process_gene_data_with_empty_handling(data, 'GO_term'), #GO_term / pathway_description
-        'Function_Group'
-    )
-    final_processed_data.to_excel(final_processed_output_file_path, index=False)
-
-else:
-    final_processed_data = insert_blank_rows_for_groups(
-        process_gene_data_with_empty_handling(data, 'pathway_description'), #GO_term / pathway_description
-        'Function_Group'
-    )
-    final_processed_data.to_excel(final_processed_output_file_path, index=False)
 
 
 
+
+
+def rename_xls_to_xlsx(directory):
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if file.endswith(".xlsx"):
+                file_path = os.path.join(root, file)  # 获取文件的完整路径
+                print(file_path)
+                final_processed_output_file_path = generate_output_file_path(file_path)
+
+                print(final_processed_output_file_path)
+
+                # data = pd.read_excel(file_path)
+                # 在读取 Excel 文件时显式指定引擎
+                # 对于 .xlsx 文件，使用 'openpyxl'
+                # 对于 .xls 文件，使用 'xlrd'
+                engine = 'openpyxl' if 'xlsx' in file_path else 'xlrd'
+                data = pd.read_excel(file_path, engine=engine)
+
+                if 'GO' in file_path :
+                    # Process the data based on the 'GO_term' column (assumed to be column 'D')
+                    final_processed_data = insert_blank_rows_for_groups(
+                        process_gene_data_with_empty_handling(data, 'GO_term'), #GO_term / pathway_description
+                        'Function_Group'
+                    )
+                    final_processed_data.to_excel(final_processed_output_file_path, index=False)
+
+                else:
+                    final_processed_data = insert_blank_rows_for_groups(
+                        process_gene_data_with_empty_handling(data, 'pathway_description'), #GO_term / pathway_description
+                        'Function_Group'
+                    )
+                    final_processed_data.to_excel(final_processed_output_file_path, index=False)
+
+
+# 指定目录路径
+directory_path = "/Users/zhangyuanyi/Downloads/待整理文件/"
+
+# 执行函数
+rename_xls_to_xlsx(directory_path)
