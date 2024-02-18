@@ -4,9 +4,7 @@
 
 本项目研究小鼠在动开颅手术后智力水平的变化，通过实施动开颅手术并进行智力评估实验，我们将探讨手术对小鼠认知能力的潜在影响。
 
-## 作者简介
-- Hy: One of the most dangrous mice killer around this world, even the mice king would pray.  
-- Ro: One of the most dangrous mice mice around this world, his full name is Round One God Damm it.
+
 ## 学习内容 🧑‍🎓
 
 本项目涉及以下学习内容：
